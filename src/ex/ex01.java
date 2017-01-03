@@ -16,12 +16,12 @@ public class ex01 {
 		int n = scn.nextInt();
 		int data[] = new int[n];
 		int a[] = new int[n];
-		for (int i = 0; i < n; i++) {
-			data[i] = scn.nextInt();
+		for (int i=0;i<n;i++) {
+			data[i]=scn.nextInt();
 		}
-		for (int i = 0; i < n; i++) {
-			int b = 0;
-			int c = data[i];
+		for (int i=0;i<n;i++) {
+			int b=0;
+			int c=data[i];
 			while (c > 0) {
 				b = b + c % 10;
 				c = c / 10;
@@ -46,7 +46,7 @@ public class ex01 {
 				}
 			}
 		}
-		for (int i = 0; i < n; i++) {
+		for (int i=0;i<n;i++) {
 			System.out.print(data[i] + "\t");
 		}
 
